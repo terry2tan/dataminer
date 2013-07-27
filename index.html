@@ -1,0 +1,294 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Data Miner Survey 2013</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<style>
+   body {padding:40px 0px 40px 0px;
+		background-image:url(img/bg.png);
+	}
+
+	h2 {font:"微软雅黑"}
+	hr { margin-top:30px; border-top:rgb(211,208,208) 1px solid; border-bottom-width:2px}
+	#ssi { float:right; padding-top:10px; line-height:15px}
+	#logo { width:153px; padding-right:50px}
+	.container {width:960px}
+	.intro {font-size:16px; line-height:28px}
+	.topnav { -webkit-border-radius:8px 8px 0px 0px; line-height:30px; display:list-item; border:rgb(213,213,213) 1px solid;}
+	a {  -webkit-border-radius:3px;line-height:30px; display:list-item; border:rgb(213,213,213) 1px solid; margin:-1px 0px 0px 0px; padding:20px 0px 20px 0px}
+	.left-bar { -webkit-border-radius:6px; box-shadow:rgb(224,224,224) 0px 2px 8px; width:120px}
+	.ic {float:right; margin-top:8px; opacity:0.5}
+	.exp {font-size:16px}
+	.chart1 { padding:0px 36px 0px 0px; width:50px; height:50px;}
+	.chart9 { padding:0px 15px 0px 0px; width:70px; height:70px;}
+	#chart1 { padding-top:20px}
+	#chart2 { padding-top:30px}
+	.exp-title {font-size:14px} 
+	.bullet-list li {padding-bottom:24px;}
+</style>
+
+<script type="text/javascript" src="js/jquery-1.4.js"></script>
+<script src="js/animation.js"></script>
+
+  </head>
+  <body>
+  <div class="container">
+  <!-- 标题部分         -------------------------------------------->
+  <div class="header row">
+  	<div class="header span12">
+	<div id="logo" class="pull-right">
+    <img class="img-rounded" src="img/logo.png" width="50" height="50" >    
+    <div id="ssi" ><small>中国传媒大学</small><br>调查统计研究所</div></div>
+    <h2 class="text-warning" >2013中国数据挖掘者调查</h2>
+        <hr>
+    </div>
+  </div>
+   <!-- 简介部分         -------------------------------------------->
+  <div class="row">
+  <!-- nav -->
+  <div class="nav span2">
+  	<ul class="nav left-bar nav-list affix">
+  		<li>
+        	<a class="topnav"><i class="icon-chevron-right ic"></i>简介</a>
+        </li>
+        <li>
+        	<a class="navg">使用与环境<i class="icon-chevron-right ic"></i></a>
+        </li>
+        <li>
+        	<a class="navg">工具与平台<i class="icon-chevron-right ic"></i></a>
+        </li>
+        <li>
+        	<a class="navg">模型与部署<i class="icon-chevron-right ic"></i></a>
+        </li>
+        <li>
+        	<a class="navg">职业与未来<i class="icon-chevron-right ic"></i></a>
+        </li>
+	</ul>
+  </div>
+	<div class="span10">
+    <div class="intro">
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;近几年，诸如大数据、海量数据等概念在中国被广泛提及，基于大数据的数据挖掘也被提上日程。数据挖掘目前在中国开展的情况，数据挖掘者的工作情况，学界、业界在数据挖掘领域的实践，这些都是我们此次调查想要了解的情况。经过为期12天的在线调查，137位受访者的细心的填答，还有 <strong>Rexer Analytics</strong> 公司的大力支持。中国传媒大学调查统计研究所先将这次调查的主要结果分享给大家。</p>
+    </div>
+    <hr>
+
+
+</div>
+</div>
+ <!-- 使用与环境          -------------------------------------------->
+<div class="row">
+<div class="span2"></div>
+<!-- content -->
+<div class="middle span8">
+<div class="row">
+<h3>使用与环境</h3>
+</div>
+ <!-- 使用与环境：第一列图          -------------------------------------------->
+<div class="row">
+   	<div id="chart1"></div>
+</div>
+<div class="row">
+   <div class="span12">
+   <img class="chart1" src="img/academy.png">
+   <img class="chart1" src="img/marketing.png">
+   <img class="chart1" src="img/network.png">
+   <img class="chart1" src="img/coins.png">
+   <img class="chart1" src="img/shopping.png">
+   <img class="chart1" src="img/phone.png">
+   <img class="chart1" src="img/virus.png">
+   </div>
+</div>
+ <!-- 使用与环境：第二列图          -------------------------------------------->
+<div class="row">
+   		<div id="chart2"></div>
+</div>
+<div class="row">
+   <div class="span12">
+   <img class="chart1" src="img/safety_box.png">
+   <img class="chart1" src="img/gov.png">
+   <img class="chart1" src="img/microphone.png">
+   <img class="chart1" src="img/gear.png">
+   <img class="chart1" src="img/ngo.png">
+   <img class="chart1" src="img/army.png">
+   <img class="chart1" src="img/doctor.png">
+   </div>
+</div>
+
+ <!-- 使用与环境：bubble          -------------------------------------------->
+ <div class="row">
+   		<div id="chart3"></div>
+</div>
+
+ <div class="row">
+   		<div id="chart4"></div>
+</div>
+
+ <div class="row">
+ 	<div class="span2"><p class="text-info exp-title" align="left">数据采集多久后用于分析</p></div>
+    <div class="span6">
+   		<div id="chart5"></div>
+    </div>
+</div>
+ <div class="row" style="padding-top:20px">
+ 	<div class="span2"><p class="text-info exp-title" align="left" style="padding-top:10px">数据分析完多久后能被实际应用</p></div>
+    <div class="span6">
+        <div id="chart6"></div>
+    </div>
+</div>
+
+
+<div class="row">
+        <div id="chart7" style="padding-top:20px"></div>
+</div>
+
+<div class="row">
+        <div id="chart8" style="padding-top:20px"></div>
+</div>
+<!--------------------------------------------------->
+<div class="row">
+<h3>工具与平台</h3>
+</div>
+<div class="row" style="padding-top:20px">
+   <div class="span12">
+   <img class="chart9" src="img/computer.png">
+   <img class="chart9" src="img/server.png">
+   <img class="chart9" src="img/notebook.png">
+   <img class="chart9" src="img/computer-server.png">
+   <img class="chart9" src="img/center-server.png">
+   <img class="chart9" src="img/cloud compute.png">
+   <img class="chart9" src="img/notebook-server.png">
+   </div>
+</div>
+<div class="row">
+	<div id="chart9"></div>
+</div>
+<div class="row">
+	<div style="padding-left:20px;padding-top:50px">
+    	<img x src="img/windows.png" />
+        <img x src="img/linux.png" />
+        <img x src="img/unix.png" />
+        <img x src="img/mac.png" />
+    </div>
+</div>
+<div class="row">
+	<p><span style="padding-left:75px">Windows:75.9%</span><span style="padding-left:130px">Linux:46.0%</span><span style="padding-left:75px">Unix:8.0%</span><span style="padding-left:10px">Mac OS-X:2.9%</span></p>
+</div>
+
+<div class="row" style="padding-top:60px">
+	<div class="span2"><p></p></div>
+    <div class="span6"><p><span>从不</span><span style="padding-left:30px">很少</span><span style="padding-left:60px">有时</span><span style="padding-left:90px">经常</span><span style="padding-left:90px">总是</span></p></div>
+</div>
+<div class="row">
+	<div class="span2"><p>图形用户界面</p></div>
+    <div class="span6"><div id="chart10"></div></div>	
+</div>
+<div class="row">
+	<div class="span2"><p>修改和使用现成的代码</p></div>
+    <div class="span6"><div id="chart11"></div></div>	
+</div>
+<div class="row">
+	<div class="span2"><p>编写新的代码</p></div>
+    <div class="span6"><div id="chart12"></div></div>	
+</div>
+
+<div class="row" style="padding-top:70px">
+	<div class="span2"></div>
+    <div class="span6"><p><span>最不重要</span><span style="padding-left:320px">最重要</span></p></div>	
+</div>
+<div class="row">
+	<div class="span2" style="padding-top:10px"><ul class="unstyled bullet-list">
+    	<li>处理数据能力</li>
+        <li>支持多种数据库</li>
+        <li>处理海量数据</li>
+        <li>模型的质量和准确度</li>
+        <li>稳定性和可靠性</li>
+        <li>速度</li>
+        <li>自动执行重复工作</li>
+        <li>能否批处理</li>
+        <li>能调整算法选项</li>
+        <li>简明的输出</li>
+        <li>操作简易性</li>
+        <li>有我需要的分析技术</li>
+        <li>提供多种算法</li>
+        <li>完备的说明文档</li>
+        <li>边写代码的难易</li>
+        <li>协同工作的能力</li>
+        <li>上手的难易</li>
+        <li>用户界面</li>
+        <li>支持代码的能力</li>
+        <li>价格</li>
+        <li>安装和维护的难易</li>
+    </ul>
+    </div>
+    <div class="span6"><div id="chart13"></div></div>	
+</div>
+
+<!--middle-end----->
+</div>
+
+<!-- explain -->
+<div class="span2 explain">
+<!-- exp1---------->
+    <p class="text-success exp" style="padding-top:100px">数据挖掘使用领域</p>
+    <ul>
+    <li>目前我国数据挖掘分析方法主要应用在学术、客户关系管理/市场营销、网络三大领域研究，其中一半以上的研究者将数据挖掘应用于学术领域。</li>
+    <li>金融、零售业、电信业、科技等领域也有较多数据挖掘者涉猎。</li>
+    </ul>
+<!-- exp2---------->   
+        <p class="text-success exp" style="padding-top:150px">数据挖掘常用算法</p>
+    <ul><li>根据调查结果显示，聚类分析、回归分析、决策树、时间序列、关联规则等传统数据挖掘分析方法比较受数据挖掘者的使用偏好。</li></ul>
+    
+<!-- exp3---------->   
+        <p class="text-success exp" style="padding-top:380px">经常分析的数据类型</p>
+    <ul><li>数据挖掘者处理经常处理的数据类型的前三位是数字、文本和互联网数据。</li>
+    <li>声音、空间数据、图像等数据类型的分析相对较少。</li></ul>
+    
+<!-- exp4---------->   
+        <p class="text-success exp" style="padding-top:230px">数据挖掘使用时间特点</p>
+    <ul><li>在数据采集后，数据挖掘者能在较短时间内进行数据分析工作，由调查可知，近一半的被访者可以在几小时内开始数据分析工作，超过八成的被访者可以在几天之内开始数据分析工作。</li>
+    <li>根据调查发现，分析结果被实际应用的时间较数据分析所需时间而言较长，25.5%的被访者表示需要几天的时间，24.8%的被访者表示需要几个星期的时间。</li></ul>
+    
+<!-- exp5---------->   
+        <p class="text-success exp" style="padding-top:220px">文本挖掘使用描述</p>
+    <ul><li>关于国内数据挖掘者对于文本挖掘的最佳描述，近一半的被访者认为“我们一般将文本挖掘合并进我们的分析”，占总体的48.9%。仅有25.5%的被访者表示没有使用任何文本分析的计划。</li></ul>
+    
+<!-- exp6---------->   
+        <p class="text-success exp" style="padding-top:230px">文本分析中文本来源</p>
+    <ul><li>关于选择何种文本作为其文本分析的来源，通过调查可以发现，网络文本数据依然占据最大比重。25.5%的被访者选择博客和其他社交网络，比重最大；另外有17.5%的被访者选择网上论坛或评论网站。选择顾客、市场调查作为分析来源的被访者也较多，占总体的14.6%。</li></ul>
+    
+<!-- exp7---------->   
+        <p class="text-success exp" style="padding-top:180px">使用的计算环境</p>
+    <ul><li>本地计算环境仍然是数据挖掘的主流，云计算虽然近几年发展势头迅猛，但在实际应用中所占比例较低。</li></ul>
+    
+<!-- exp8---------->   
+        <p class="text-success exp" style="padding-top:130px">操作系统</p>
+    <ul><li>近八成数据挖掘工作者使用的操作系统是Windows。</li></ul>
+    
+<!-- exp9---------->   
+        <p class="text-success exp" style="padding-top:150px">如何操作分析工具</p>
+    <ul><li>数据挖掘者们倾向于经常使用图形用户界面，有时也会修改已经写好的代码，有14.6%的被访者从不编写新的代码。</li></ul>
+    
+<!-- exp10---------->   
+        <p class="text-success exp" style="padding-top:100px">选择数据挖掘软件是考虑的因素</p>
+    <ul><li>在选择软件时，从业者们最看重处理数据的能力，软件价格和安装管理的难易程度则相对最不重要。</li></ul>
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+<!--container-end---------------->
+</div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/d3.v3.min.js"></script>
+    <script src="js/createChart.js"></script>
+   
+  </body>
+</html>
